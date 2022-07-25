@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React from "react";
-import { API_KEY, CONTEXT_KEY } from "../keys";
+
 import Response from "../Response";
 import Header from "./components/Header";
 import {useRouter} from "next/router";
