@@ -15,12 +15,12 @@ function HeaderOptions() {
     lg:justify-start lg:space-x-36 lg:pl-52 border-b-[1px]">
       {/* left */}
       <div className="flex space-x-6">
-        <HeaderOption Icon={SearchIcon} title="All" selected={true}/>
-        <HeaderOption Icon={PhotographIcon} title="Images"selected={false} />
-        <HeaderOption Icon={PlayIcon} title="Videos" selected={false}/>
-        <HeaderOption Icon={NewspaperIcon} title="News"selected={false} />
-        <HeaderOption Icon={MapIcon} title="Maps"selected={false} />
-        <HeaderOption Icon={DotsVerticalIcon} title="More"selected={false} />
+        <HeaderOption Icon={SearchIcon} title="All"/>
+        <HeaderOption Icon={PhotographIcon} title="Images" />
+        <HeaderOption Icon={PlayIcon} title="Videos" />
+        <HeaderOption Icon={NewspaperIcon} title="News" />
+        <HeaderOption Icon={MapIcon} title="Maps" />
+        <HeaderOption Icon={DotsVerticalIcon} title="More" />
       </div>
       {/* right */}
       <div className="flex space-x-4">
